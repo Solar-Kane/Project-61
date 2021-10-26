@@ -1,0 +1,42 @@
+body {
+    color: black;
+    text-align: center;
+    font-family: verdana;
+    background-color: blue;
+    background-image: linear-gradient(blue, yellow);
+}
+
+img {
+    width: 250px;
+    margin: 25px;
+    height: 250px;
+}
+
+
+
+
+
+.Menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10
+}
+
+.links {
+    float: left;
+    color: #000;
+    font-family: fantasy;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.links:hover {
+    background-color: dodgerblue;
+}
